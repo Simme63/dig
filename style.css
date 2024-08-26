@@ -1,0 +1,37 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+  background-color: antiquewhite;
+}
+nav
+{
+  display: flex;
+  padding: 1rem;
+  margin: 0;
+  justify-content: space-between;
+  background-color: rgb(98, 161, 155);
+}
+
+th, td {
+    border:1px solid black;
+    padding: 0.3rem;
+  }
+
+nav>a
+{
+  text-decoration: none;
+  background-color: rgb(24, 37, 83);
+  border-radius: 5px;
+  color:white;
+  padding: 0.3rem;
+} 
